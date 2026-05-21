@@ -8,7 +8,7 @@ import {IPoolManager} from "v4-core/src/interfaces/IPoolManager.sol";
 import {TreasuryFeeHook} from "../src/TreasuryFeeHook.sol";
 
 contract DeployTreasuryHook is Script {
-    address constant POOLMANAGER    = 0xE03A1074c86CFeDd5C142C4F04F1a1536e203543;
+    address constant POOLMANAGER    = 0x000000000004444c5dc75cB358380D2e3dE08A90;
     address constant CREATE2_DEPLOYER = 0x4e59b44847b379578588920cA78FbF26c0B4956C;
 
     function run() external {
